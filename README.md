@@ -1,7 +1,7 @@
 # Macros, WA's, Plater
 ## Macros
 
-- Trinket use + biggest pot use, bruger den stærkeste der er i inventory
+Trinket use + biggest pot use, bruger den stærkeste der er i inventory
 ```
 /use 13
 /use item:212971
@@ -12,16 +12,16 @@
 /use item:212263
 ```
 
-- 1 button HS / pot
--- Bruger først HP pot, derefter HS, som har 1 min CD
--- Kan spammes for dobbelt heal, når Christian skriger
+1 button HS / pot
+- Bruger først HP pot, derefter HS, som har 1 min CD
+- Kan spammes for dobbelt heal, når Christian skriger
 
 
 
-- Skift til en af følgende afhængig af kval a hp pot
--- /use item:211880 (HP pot, rank 3)
--- /use item:211879 (HP pot, rank 2)
--- /use item:211878 (HP pot, rank 1)
+Skift til en af følgende afhængig af kval a hp pot
+- /use item:211880 (HP pot, rank 3)
+- /use item:211879 (HP pot, rank 2)
+- /use item:211878 (HP pot, rank 1)
 ```
 #showtooltip 
 /castsequence reset=300 /use item:211880, item:5512, item:5512, item:5512, item:5512, item:5512
@@ -36,9 +36,9 @@
 ```
 
 
--Enable / disable builtin blizzard combat text og camera zoom tweaks
--- /console floatingCombatTextCombatHealing 1 : enabled
--- /console floatingCombatTextCombatHealing 1 : disabled
+Enable / disable builtin blizzard combat text og camera zoom tweaks
+- /console floatingCombatTextCombatHealing 1 : enabled
+- /console floatingCombatTextCombatHealing 1 : disabled
 ```
 /console floatingCombatTextCombatHealing 1
 /console floatingCombatTextCombatDamage 0
@@ -48,17 +48,17 @@
 ```
 
 ## Premade Groups Filters
-- Fuld liste af [keywords](https://github.com/0xbs/premade-groups-filter/wiki/Keywords)
-- Til Mythicplus, forklaring følger, linje for linje
--- ingen mages
--- mindst en tank eller healer
--- rio over et vidst niveau, for at frasortere plebs
--- gider ikke hvis leader er fra kazzak eller twisting nether
--- sørger for at grps du er declined til ikke kommer tilbage
--- sørger for at keys du signede til, som timed ud ikke kommer tilbage
--- sørger for at der er plads til 1 tank, 1 heal, 3 dps
--- sørger for at der er plads til mindst 1 bl
--- sørger for der er plads til mindst et CR
+Fuld liste af [keywords](https://github.com/0xbs/premade-groups-filter/wiki/Keywords)
+Til Mythicplus, forklaring følger, linje for linje
+- ingen mages
+- mindst en tank eller healer
+- rio over et vidst niveau, for at frasortere plebs
+-  gider ikke hvis leader er fra kazzak eller twisting nether
+- sørger for at grps du er declined til ikke kommer tilbage
+- sørger for at keys du signede til, som timed ud ikke kommer tilbage
+- sørger for at der er plads til 1 tank, 1 heal, 3 dps
+- sørger for at der er plads til mindst 1 bl
+- sørger for der er plads til mindst et CR
 ```
 mythicplus
 and (mages == 0)
@@ -96,7 +96,7 @@ oversigt over tier tokens
 
 
 ## Samlet pakke af WA's for quality of life
-- Indeholder følgende:
+Indeholder følgende:
 |WA|Beskrivelse|
 |-----:|-----------|
 |Your key notifier|Stor tekst midst på skærmen hvis vi er i necrotic wake og DU har en necrotic wake key i bags|
@@ -115,10 +115,10 @@ oversigt over tier tokens
 ```
 
 ## Plater stuff
--Interrupt CD indicator, på nameplate mod
--- Import
+Interrupt CD indicator, på nameplate mod
+- Import
 ![image](https://github.com/user-attachments/assets/41c522f2-e066-49a9-b753-8c8028378d7b)
--- Interrupt er ikke klar, men bliver det ved den grønne streg
+- Interrupt er ikke klar, men bliver det ved den grønne streg
 ![image](https://github.com/user-attachments/assets/40b46ad3-313d-4863-b259-62713e6a3c09)
 
 
