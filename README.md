@@ -75,16 +75,19 @@ and brfit
 
 -Til raids, forklaring følger, linje for linje
 -- antal fjolser der kan rolle på mit tier token skal være mindre end en 1/4 af raidet, weeder grådige leaders fra
--- forsøger at weede de første to bosser fra, fordi jeg ikke kan bruge lewts fra dem
 -- "not boss" er hvilke bosser der ikke må være slået ihjel
+-- lister ikke groups har har declined eller softdeclined (timet out) mig
+-- groups hvor leader heaer slået 6. boss ihjel mere end 0 gange
 ```
 mystic < members/4
-and defeated >= 2
-and not boss["Rasha'nan"]
 and not boss ["Sikran, Captain of the Sureki"]
+and not boss["Rasha'nan"]
 and not boss["Bloodtwister Ovi'nax"]
 and not boss["Nexus-Princess Ky'veza"]
 and not boss["The Silken Court"]
+and not declined
+and not softdeclined
+and rioheroickills[6] > 0
 ```
 oversigt over tier tokens
 | Token | class |
