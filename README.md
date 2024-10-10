@@ -38,7 +38,7 @@ Skift til en af følgende afhængig af kval a hp pot
 
 Enable / disable builtin blizzard combat text og camera zoom tweaks
 - /console floatingCombatTextCombatHealing 1 : enabled
-- /console floatingCombatTextCombatHealing 1 : disabled
+- /console floatingCombatTextCombatHealing 0 : disabled
 ```
 /console floatingCombatTextCombatHealing 1
 /console floatingCombatTextCombatDamage 0
